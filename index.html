@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>WSJF</title>
+  </head>
+  <body>
+    <h1>I AM A GOLDEN GOD</h1>
+    Job Name: <input type="text" id="jobName" /><br />
+    Job duration:
+    <input
+      type="text"
+      id="jobDuration"
+      placeholder="How long the job will take in days"
+    /><br />
+    User-Business Value:
+    <input
+      type="text"
+      id="userBusinessValue"
+      placeholder="A value between 1-10"
+    /><br />
+    Time Criticality:
+    <input
+      type="text"
+      id="timeCriticality"
+      placeholder="A value between 1-10"
+    /><br />
+    Risk Reduction / Opportunity enablement:
+    <input
+      type="text"
+      id="riskReduction"
+      placeholder="A value between 1-10"
+    /><br />
+
+    <button
+      onclick="clickFunction()
+  "
+    >
+      Add a job!
+    </button>
+
+    <div id="lowerDiv"></div>
+    <table id="dataTable"></table>
+  </body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="map.js"></script>
+  <script src="graph.js"></script>
+</html>
